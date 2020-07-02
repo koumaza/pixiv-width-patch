@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name        pixiv-width-patch
+@namespace   koumaza
+@version     1.0.0
+@homepageURL https://github.com/koumaza/pixiv-width-patch.git
+@updateURL   
+@license     WTFPL(PublicDomain)
+@author      koumaza
+==/UserStyle== */
+
+@-moz-document domain("pixiv.net") {
+  .AGfnq { padding: 1rem!important; }
+  .jgyytr-1, .dsmqBs { width: 96%!important; margin-left: 1rem!important; margin-right: 1rem!important; padding-left: 1rem!important; padding-right: 1rem!important; }
+  .dCCrDP, .hMpGQP { min-width: 100%!important; max-width: 100%!important; margin: 0px!important; padding: 0px!important; }
+  .jgyytr-1 div { max-width: 100%!important; }
+  .sc-1fmkkdm-1.bNJTBM { display: none!important }
+  .bqtGkf { width: 0px!important; height: 0px!important; }
+}
